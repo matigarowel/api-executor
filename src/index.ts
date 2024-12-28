@@ -16,7 +16,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello, TypeScript with Express!');
 });
 
-app.post('/exec', (req: Request, res: Response) => {
+app.get('/exec', (req: Request, res: Response) => {
   let dataResponse: DataResponce = {
     message: "",
     data: null,
