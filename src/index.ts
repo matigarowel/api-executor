@@ -1,5 +1,6 @@
 // Importing required modules
 import express, { Request, Response, NextFunction } from 'express';
+import { DataResponce } from './model';
 
 // Create an instance of an Express application
 const app = express();

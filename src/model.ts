@@ -1,8 +1,8 @@
-interface DataRequestBody {
+export interface DataRequestBody {
     url: string;
 }
 
-interface DataResponce {
+export interface DataResponce {
     code: number;
     message: string;
     data: any;
