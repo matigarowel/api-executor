@@ -22,7 +22,7 @@ app.post('/exec', (req: Request, res: Response) => {
     code: 200
   }
 
-  fetch('')
+  fetch('https://api64.ipify.org?format=json')
     .then(response => response.json())
     .then(data => {
       dataResponse.data = data
